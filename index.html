@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;
     300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
     <script src="https://use.fontawesome.com/b43d98eb06.js"></script>
     <title>University Website </title>
 </head>
+
 <body>
     <section class="header">
         <nav>
@@ -19,7 +22,6 @@
             </a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
-
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
@@ -32,20 +34,62 @@
         </nav>
         <div class="text-box">
             <h1>World's Biggest University</h1>
-            <p>making website is now one of the easiest thing in the world you just need to learn HTML CSS <br>JavaScript and you are good to go</p>
+            <p>making website is now one of the easiest thing in the world you just need to learn HTML CSS
+                <br>JavaScript and you are good to go
+            </p>
             <a href="" class="hero-btn">Visit Us to Know more</a>
         </div>
     </section>
+    <!-- ------- course ------- -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet doloremque error rerum corporis recusandae.
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis odit nulla nobis officia
+                    voluptatem maiores consequuntur quidem, minus saepe magnam, et velit amet id! Enim nostrum eveniet
+                    rerum natus laudantium.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis odit nulla nobis officia
+                    voluptatem maiores consequuntur quidem, minus saepe magnam, et velit amet id! Enim nostrum eveniet
+                    rerum natus laudantium.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis odit nulla nobis officia
+                    voluptatem maiores consequuntur quidem, minus saepe magnam, et velit amet id! Enim nostrum eveniet
+                    rerum natus laudantium.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
     <!-- --------------- Javascript For Toggle Menu ----------->
     <script>
         var navLinks = document.getElementById("navLinks");
-        function showMenu(){
+        function showMenu() {
             navLinks.style.right = "0";
         }
-        function hideMenu(){
+        function hideMenu() {
             navLinks.style.right = "-200px";
         }
     </script>
 
 </body>
+
 </html>
